@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@700&display=swap');
+
+body.netflix-bg {
+    font-family: 'Inter', sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+h1, h3, .navbar-brand { font-family: 'Poppins', sans-serif; color: #ffffff; }
+
+.form-label {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+.netflix-form-card {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border: 1px solid #444;
+}
+
+.netflix-input {
+    background-color: #333 !important;
+    border: 1px solid #555 !important;
+    color: #ffffff !important;
+}
+
+.movie-card {
+    background-color: #181818 !important;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover { transform: scale(1.05); }
+
+.poster-img {
+    height: 380px;
+    object-fit: cover;
+    border-bottom: 2px solid #e50914;
+}
+
+.genre-badge {
+    background-color: #e50914 !important;
+    color: white !important;
+    border-radius: 50px !important;
+    padding: 4px 10px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    font-size: 0.65rem !important;
+}
+
+.netflix-red-btn {
+    background-color: #e50914 !important;
+    border: none;
+    color: white;
+}
+
+.btn-edit { background-color: #444; color: white !important; border: none; }
+
+::-webkit-calendar-picker-indicator { filter: invert(1); }
